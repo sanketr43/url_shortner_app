@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# URL Shortner App
+This is URL shortner App build on ReactJs. You can see the preview on below Link.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Project Demo](https://urlshortner-app.netlify.app)
 
-## Available Scripts
+[Video Demo](https://www.awesomescreenshot.com/video/8867075?key=340121afb143a25aec8522033b63d500)
 
-In the project directory, you can run:
+# URL Shortner API
 
-### `npm start`
+[github link](https://github.com/sanketr43/url_shortner_api)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## POSTMAN API Collection
+You can access postman API collection at below given URL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[view collection](https://documenter.getpostman.com/view/17359967/UyxgKoCY)
 
-### `npm test`
+## Local Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step1: Clone the repo in the localhost
 
-### `npm run build`
+Step2: Install node packages using command as below
+```sh
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Step3: You have to set the below variable according to the NodeJS avaiable in global-context.js file in the root folder.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+BASE_URL = (base url of the node api.)
+SHORT_URL = (short url on which the unique code to be attached.)
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Step4: Once all the above steps are done you can project using below command in localhost.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Live Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I have used Netlify to host the ReactJs application.
